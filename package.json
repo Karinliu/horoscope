@@ -1,0 +1,23 @@
+{
+  "name": "horoscope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karinliu/horoscope.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karinliu/horoscope/issues"
+  },
+  "homepage": "https://github.com/Karinliu/horoscope#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
+}
